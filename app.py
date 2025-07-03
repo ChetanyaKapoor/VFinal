@@ -1,4 +1,3 @@
-```python
 """
 VaporIQ Galaxy Dashboard (Dash + Plotly)
 ---------------------------------------
@@ -255,4 +254,3 @@ def render(tab):
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8050))
     app.run_server(host="0.0.0.0", port=port)
-```
